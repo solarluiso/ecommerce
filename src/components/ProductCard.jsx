@@ -28,7 +28,7 @@ const ProductCard = ({ product }) => {
         onClick={handleFavoriteClick}
       >
         {product.isFavorite ? (
-          <Heart className="w-6 h-6 text-red-500" />
+          <Heart className="w-6 h-6 text-green-500" />
         ) : (
           <Heart className="w-6 h-6 text-gray-400" />
         )}
